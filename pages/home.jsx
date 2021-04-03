@@ -6,25 +6,27 @@ const Home = () => {
   return (
     <Layout>
       <SuperCenter>
-        <p className="text-4xl font-bold leading-3 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
-          Hello, I'm Kalwabed. Welcome to the another power of{" "}
-          <a
-            href="http://deno.land"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:no-underline"
-          >
-            Deno
-          </a>
-        </p>
-        <div className="text-gray-500 font-light tracking-wide">
-          Go to{" "}
-          <a
-            href="https://kawari.space"
-            className="text-blue-500 hover:no-underline underline hover:text-blue-600 focus:outline-none"
-          >
-            kawari.space
-          </a>
+        <div className="flex flex-column">
+          <p className="text-4xl font-bold bg-gradient-to-r from-blue-300 to-teal-500">
+            Hello, I'm Kalwabed. Welcome to the another power of{" "}
+            <a
+              href="http://deno.land"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:no-underline transition"
+            >
+              Deno
+            </a>
+          </p>
+          <div className="text-gray-600 font-light tracking-wide">
+            Go to{" "}
+            <a
+              href="https://kawari.space"
+              className="transition hover:no-underline underline hover:text-gray-700 focus:outline-none"
+            >
+              kawari.space
+            </a>
+          </div>
         </div>
       </SuperCenter>
     </Layout>
