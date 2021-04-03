@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <Layout>
       <SuperCenter>
-        <div className="flex flex-column">
-          <p className="text-4xl font-bold bg-gradient-to-r from-blue-300 to-teal-500">
+        <div className="flex flex-col">
+          <p className="text-4xl font-bold bg-gradient-to-r from-blue-300 to-gray-500">
             Hello, I'm Kalwabed. Welcome to the another power of{" "}
             <a
               href="http://deno.land"
@@ -22,7 +22,7 @@ const Home = () => {
             Go to{" "}
             <a
               href="https://kawari.space"
-              className="transition hover:no-underline underline hover:text-gray-700 focus:outline-none"
+              className="transition hover:no-underline underline hover:text-blue-300 focus:outline-none"
             >
               kawari.space
             </a>
