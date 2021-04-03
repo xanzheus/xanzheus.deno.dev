@@ -1,5 +1,3 @@
-import { h } from "https://deno.land/x/sift@0.1.7/mod.ts";
-
 const Layout = ({ children }) => {
   return (
     <html lang="en">
@@ -13,9 +11,12 @@ const Layout = ({ children }) => {
           rel="stylesheet"
           href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css"
         />
+        <title>Kalwabed x Deno Deploy</title>
       </head>
-      <body className="h-full">
-        <div className="flex flex-column min-h-screen">{children}</div>
+      <body className="h-full antialiased">
+        <div className="flex flex-column min-h-screen bg-gray-300">
+          {children}
+        </div>
       </body>
     </html>
   );
