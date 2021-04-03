@@ -7,8 +7,8 @@ const Home = () => {
     <Layout>
       <SuperCenter>
         <div className="flex flex-col space-y-3">
-          <p className="text-4xl font-bold bg-gradient-to-r from-blue-300 to-gray-500">
-            Hello, I'm Kalwabed. Welcome to another power of{" "}
+          <p className="text-4xl font-bold">
+            Hello, Kalwabed here. Powered by{" "}
             <a
               href="http://deno.land"
               target="_blank"
@@ -19,7 +19,7 @@ const Home = () => {
             </a>
           </p>
           <div className="text-gray-600 font-light tracking-wide text-center">
-            Go to{" "}
+            Visit{" "}
             <a
               href="https://kawari.space"
               className="transition hover:no-underline underline hover:text-blue-500 focus:outline-none"

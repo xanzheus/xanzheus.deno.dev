@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
         <title>Kalwabed x Deno Deploy</title>
       </head>
       <body className="h-full antialiased">
-        <div className="flex flex-column min-h-screen bg-gray-300">
+        <div className="flex flex-column min-h-screen bg-gray-900 text-white">
           {children}
         </div>
       </body>
