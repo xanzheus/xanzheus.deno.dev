@@ -6,26 +6,27 @@ const Home = () => {
   return (
     <Layout>
       <SuperCenter>
-        <div className="flex flex-col space-y-3">
-          <p className="text-4xl font-bold">
-            Hello, Kalwabed here. Powered by{" "}
-            <a
-              href="http://deno.land"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:no-underline transition"
-            >
-              Deno
-            </a>
-          </p>
-          <div className="text-gray-600 font-light tracking-wide text-center">
-            Visit{" "}
-            <a
-              href="https://kawari.space"
-              className="transition hover:no-underline underline hover:text-blue-500 focus:outline-none"
-            >
-              kawari.space
-            </a>
+        <div className="flex flex-col">
+          <div className="space-y-3">
+            <p className="text-4xl font-bold px-3 md:px-0">
+              Hello,{" "}
+              <a
+                href="https://kawari.space"
+                className="transition hover:no-underline underline hover:text-blue-500 focus:outline-none"
+              >
+                Kalwabed
+              </a>{" "}
+              here.
+            </p>
+            <div className="text-gray-600 font-light tracking-wide text-center">
+              Website powered by{" "}
+              <a
+                href="https://deno.land"
+                className="transition hover:no-underline underline hover:text-blue-500 focus:outline-none"
+              >
+                Deno
+              </a>
+            </div>
           </div>
         </div>
       </SuperCenter>

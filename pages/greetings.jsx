@@ -6,7 +6,7 @@ const GreetingsPage = ({ name }) => {
   return (
     <Layout>
       <SuperCenter>
-        <p className="text-3xl font-bold bg-gradient-to-r from-green-400 to-blue-500">
+        <p className="text-3xl px-3 md:px-0 font-bold bg-gradient-to-r from-gray-800 to-blue-700">
           Hello, {name}. Thanks for visiting us!
         </p>
       </SuperCenter>

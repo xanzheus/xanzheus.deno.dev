@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
           rel="stylesheet"
           href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css"
         />
-        <title>Kalwabed x Deno Deploy</title>
+        <title>Kalwabed x Deno</title>
       </head>
       <body className="h-full antialiased">
         <div className="flex flex-column min-h-screen bg-gray-900 text-white">
