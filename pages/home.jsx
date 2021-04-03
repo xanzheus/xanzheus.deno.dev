@@ -8,7 +8,7 @@ const Home = () => {
       <SuperCenter>
         <div className="flex flex-col">
           <div className="space-y-3">
-            <p className="text-4xl font-bold px-3 md:px-0">
+            <p className="text-3xl md:text-4xl font-bold px-3 md:px-0">
               Hello,{" "}
               <a
                 href="https://kawari.space"
