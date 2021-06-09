@@ -11,7 +11,7 @@ const Home = () => {
             <p className="text-3xl md:text-4xl font-bold px-3 md:px-0">
               Hello,{" "}
               <a
-                href="https://kawari.space"
+                href="https://kalwabed.xyz"
                 className="transition hover:no-underline underline hover:text-blue-500 focus:outline-none"
               >
                 Kalwabed
