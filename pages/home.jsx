@@ -11,15 +11,15 @@ const Home = () => {
             <p className="text-3xl md:text-4xl font-bold px-3 md:px-0">
               Hello,{" "}
               <a
-                href="https://kalwabed.xyz"
+                href="https://frf.vercel.app
                 className="transition hover:no-underline underline hover:text-blue-500 focus:outline-none"
               >
-                Kalwabed
+                Ryan
               </a>{" "}
               here.
             </p>
             <div className="text-gray-600 font-light tracking-wide text-center">
-              Website powered by{" "}
+              Website made by frf hosted on{" "}
               <a
                 href="https://deno.land"
                 className="transition hover:no-underline underline hover:text-blue-500 focus:outline-none"
